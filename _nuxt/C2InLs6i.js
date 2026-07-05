@@ -1,1 +1,0 @@
-import{i as t,n}from"./DhAYNwVx.js";const u=()=>{const r=()=>localStorage?.getItem("currentScreen"),e=t(Number(r())||0);return{currentScreen:e,toNextScreen:()=>{e.value++,localStorage?.setItem("currentScreen",String(e.value)),n(`/screen-${e.value}`)},getCurrentScreen:r,resetCurrentScreen:()=>{localStorage.removeItem("currentScreen")}}};export{u};
